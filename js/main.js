@@ -2,8 +2,9 @@
 
 function populatePortfolio() {
   let portfolioContainer = document.querySelector('.portfolio-container');
-
+  let portfolioCard = document.createElement('div');
   portfolio.map((project) => {
+    console.log(project);
     let techText = project.keyTech
       .map((tech) => {
         return `<span>${tech}</span>`;
