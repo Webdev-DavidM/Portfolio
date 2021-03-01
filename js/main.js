@@ -2,13 +2,27 @@
 
 function populatePortfolio() {
   let portfolioContainer = document.querySelector('.portfolio-container');
-  let portfolioCard = document.createElement('div');
-  portfolioCard.classList.add('test1');
 
   portfolio.map((project) => {
     let techText = project.keyTech
       .map((tech) => {
         return `<span>${tech}</span>`;
+      })
+      .join('');
+
+    let keyFunctionality = project.keyFunctionality
+      .map((end) => {
+        let key = Object.keys(end);
+
+        let list = end[key]
+          .map((item) => `<li class='functionality-list'>${item}</li>`)
+          .join('');
+
+        return `<h6 class='end' >${key[0]}</h6>
+        <ul class='functionality-ul'>
+        ${list}
+        </ul>
+        `;
       })
       .join('');
 
@@ -68,10 +82,9 @@ ${project.description}
         ${techText}
       </div>
     </div>
-    <h5 class="challenges">Challenges</h5>
-    <p class="portfolio-description">
-${project.challenges}
-    </p>`;
+    <h5 class='functionality'>Key functionality</h5>
+    ${keyFunctionality}
+`;
   });
 
   // As I have used dynamically when the portfolio page loads ti looks for the portfolio
