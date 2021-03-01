@@ -91,7 +91,7 @@ const portfolio = [
   {
     name: 'React calculator',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem animi at vitae ullam incidunt? Hic sed quibusdam fugiat ratione. Officia et, quo non aliquam praesentium deserunt temporibus recusandae impedit. Optio.Nemo debitis pariatur qui dicta neque esse eaque distinctio, veritatis saepe doloremque animi, error assumenda, blanditiis repudiandae harum cupiditate cumque voluptatum ratione dolore molestias mollitia. Voluptatibus sapiente similique dolorum laboriosam.',
+      'This calculator project was one of the final assignments for the freeCodeCamp front-end libraries certificate. I created this project with CSS grid. I originally created this project with vanilla JS and then refactored it in React. as React often batches state updates the use of prevState and e.persist were essential to make this application to work in react.',
     images: [
       './images/projects/project13-react-calculator-image1.png',
       './images/projects/project13-react-calculator-image2.png',
@@ -101,25 +101,12 @@ const portfolio = [
     keyFunctionality: [
       {
         Frontend: [
-          'Four product filters connected to redux to allow the user to filter products based on various criteria',
-          'JWT tokens used to connect to the back-end and authenticate users',
-          'A user can refresh the shopping cart screen and their product remains due to user information stored in local storage',
-          'Reviews stored on the product in the mongoDB database give the product a rating, this can be expanded by clicking on the review section of the product page and it will show all the reviews',
-          'If a user is signed in they can complete an order which will be sent to the database and they can see this on their account screen',
-          'They can write a review for a product they have purchased and it will be visible on the product and alter its overall rating. If they have reviewed the product already the database will not allow this and an error message will be displayed',
-          'The product page displays the amount of items in stock for that product including their size, and it stops the user from selecting products out of stock or more than available',
-          'The window object calculates when the navbar has scrolled out of view and fades in a up arrow which takes them to the top of the page if clicked. This arrow fades out if they scroll up and the navbar is in view',
-          'The user can make adjustments to their shopping basket including changing the amount or deleting an item. If they try and increase the amount beyond what is it stock they get an error',
-          'NPM package CSS-Transition group has been used to fade in the menus and also reviews',
-          'The user can use the search bar to search items in the site.',
+          'State is used to hold values for total, display and an array which is used to hold the operators and sums needed to calculated once = is pressed',
+          'As i haved used a switch statement which decides what action to take based on which button is pressed',
         ],
       },
       {
-        Backend: [
-          'Authenticate the user with JWT tokens',
-          'Hashes the user password using Bcrypt',
-          'Various routes such as User, Orders and Products which provide user data',
-        ],
+        Backend: ['N/A'],
       },
     ],
     gitHubLink: 'https://github.com/Webdev-DavidM/react-calculator',
