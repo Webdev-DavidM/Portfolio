@@ -102,7 +102,7 @@ const portfolio = [
       {
         Frontend: [
           'State is used to hold values for total, display and an array which is used to hold the operators and sums needed to calculated once = is pressed',
-          'As i haved used a switch statement which decides what action to take based on which button is pressed',
+          'I have used a switch statement which decides what action is to take based on which button is pressed',
         ],
       },
       {
