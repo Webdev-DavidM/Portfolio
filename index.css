@@ -395,6 +395,7 @@ header p {
 }
 
 .title {
+  margin-top: 1rem;
   font-size: 1.6rem;
   color: #574b90;
   font-family: 'Noto Serif JP', sans;
@@ -402,6 +403,15 @@ header p {
 
 .portfolio-container p:first-child {
   margin-top: 0;
+}
+
+hr {
+  border: 0;
+  display: block;
+  width: 96%;
+  background-color: #34495e;
+  height: 1px;
+  margin: auto;
 }
 
 .portfolio-description {

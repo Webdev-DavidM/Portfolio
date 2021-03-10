@@ -32,6 +32,7 @@ const portfolio = [
           'The user can make adjustments to their shopping basket including changing the amount or deleting an item. If they try and increase the amount beyond what is it stock they get an error',
           'NPM package CSS-Transition group has been used to fade in the menus and also reviews',
           'The user can use the search bar to search items in the site.',
+          'As administrator you can create, edit or delete items from the database',
         ],
       },
       {

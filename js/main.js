@@ -85,7 +85,8 @@ ${project.description}
     </div>
     <h5 class='functionality'>Key functionality</h5>
     ${keyFunctionality}
-    <hr>`;
+    <hr>
+`;
   });
 
   // As I have used dynamically when the portfolio page loads ti looks for the portfolio
