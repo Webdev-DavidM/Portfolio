@@ -3,7 +3,7 @@ const data = [
     name: 'E-commerce fitness store',
     image: './images/projects/My-e-commerce-store.png',
     description:
-      'For my most recent full stack project, I created a fictional online sports shop using React and Redux on the front-end and Node,Express and Mongo DB for the back-end, click on the link for more info.',
+      'For my most recent full stack project, I created a fictional online sports shop using React and Redux on the front-end and Node,Express and Mongo DB for the back-end. Click on the link for more info. I used sketch design software to create prototypes and also design the logo.',
     gitHubLink: 'https://github.com/Webdev-DavidM/E-commerce-front-end',
     websiteLink: 'https://webdev-davidm.github.io/E-commerce-front-end/#/',
   },
