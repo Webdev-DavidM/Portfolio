@@ -11,7 +11,7 @@ const data = [
     name: 'Web dashboard',
     image: './images/projects/project4-dashboard.png',
     description:
-      'This project was part of my Treehouse front end tech degree and using CSS Grid, CSS flexbox, Javascript and Jquery which creates an interactive and visually pleasing dashboard, clikc the link for more',
+      'This project was part of my Treehouse front end tech degree and using CSS Grid, CSS flexbox, Javascript and Jquery which creates an interactive and visually pleasing dashboard, click the link for more',
     gitHubLink:
       'https://github.com/Webdev-DavidM/TDFE-project7-web-app-dashboard',
     websiteLink:
