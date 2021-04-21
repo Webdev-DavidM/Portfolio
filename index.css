@@ -531,8 +531,16 @@ iframe {
   .technologies-desktop ul li {
     list-style-type: none;
     width: 5rem;
-
     height: 4rem;
+  }
+
+  .portfolio-description {
+    height: 10rem;
+  }
+
+  .project-card p {
+    /* height: 180px; */
+    margin: 1rem 0 0 0;
   }
 }
 
@@ -600,7 +608,8 @@ iframe {
   }
 
   .project-card p {
-    height: auto;
+    height: 135px;
+    margin: 1rem 0 0 0;
     max-width: 700px;
   }
 
@@ -664,9 +673,13 @@ iframe {
     width: 35%;
     display: flex;
     max-width: 600px;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
+  }
+  .project-card p {
+    height: 110px;
+    margin: 1rem 0 0 0;
   }
   header {
     margin-top: 0;
